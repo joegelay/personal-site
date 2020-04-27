@@ -5,7 +5,7 @@
 }
 
 .App {
-  margin: 2rem;
+  margin: 2.5rem 2rem;
   display: flex;
   justify-content: center;
 }
@@ -77,18 +77,18 @@
   max-width: 1000px;
 }
 
-p {
+#blurb {
   font-size: 1.3rem;
   margin-top: 2rem;
   margin-right: 2rem;
-  max-width: 650px;
+  max-width: 700px;
 }
 
 #image-cropper {
-  width: 220px;
-  height: 220px;
-  min-width: 220px;
-  min-height: 220px;
+  width: 215px;
+  height: 215px;
+  min-width: 215px;
+  min-height: 215px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -111,5 +111,10 @@ p {
 }
 
 .contact-icon {
-  width: 25%;
+  width: 20%;
+  transition: all .2s ease-in-out;
+}
+
+.contact-icon:hover {
+  transform: scale(1.2);
 }
