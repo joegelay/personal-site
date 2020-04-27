@@ -6,14 +6,19 @@
 
 .App {
   margin: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 #main-display {
-  margin: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   align-content: center;
+  width: 100%;
+  max-width: 1000px;
+  height: 100vh;
 }
 
 .main-nav {
@@ -51,17 +56,6 @@
 
 .main-nav-link:visited {
   text-decoration: none;
-}
-
-section {
-  font-family: Helvetica, Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  width: 100%;
-  height: 100vh;
-  /* max-width: 1000px; */
 }
 
 
@@ -110,5 +104,12 @@ p {
 }
 
 #contact-nav {
+  margin-top: 4rem;
   display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.contact-icon {
+  width: 25%;
 }

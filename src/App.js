@@ -11,8 +11,6 @@ function App() {
     <div className="App">
       <div id="main-display">
 
-       <section>
-
         <nav className="main-nav">
           <a className="main-nav-link" href="/home.html">Home</a>
           <a className="main-nav-link" href="/projects.html">Projects</a>
@@ -44,17 +42,15 @@ function App() {
 
         <nav id="contact-nav">
           <a href="mailto:joegelay@gmail.com?Subject=Hello!" target="_top">        
-            <img style={{width: "100%"}} src={emailIcon} alt="email-icon"/>
+            <img className="contact-icon" src={emailIcon} alt="email-icon"/>
           </a>
           <a href="https://amazon.com" rel="noopener noreferrer" target="_blank">
-            <img style={{width: "100%"}} src={linkedInIcon} alt="linkedin-icon"/>
+            <img className="contact-icon" src={linkedInIcon} alt="linkedin-icon"/>
           </a>
           <a href="https://github.com/joegelay" rel="noopener noreferrer" target="_blank">
-            <img style={{width: "100%"}} src={githubIcon} alt="github-icon" />
+            <img className="contact-icon" src={githubIcon} alt="github-icon" />
           </a>
         </nav>
-
-      </section>
 
       </div>
     </div>
