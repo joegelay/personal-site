@@ -53,7 +53,7 @@
   text-decoration: none;
 }
 
-body {
+section {
   font-family: Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -107,4 +107,8 @@ p {
   margin-left: -27%;
   height: 100%;
   width: auto;
+}
+
+#contact-nav {
+  display: flex;
 }
