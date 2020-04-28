@@ -138,3 +138,18 @@
   width: 100%;
   max-width: 1500px;
 }
+
+#content-description {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  width: 100%;
+
+}
+
+/* .medium-widget-article__image {
+  max-width: 650px;
+}
+
+.medium-widget-article__image>img {
+  width: 100%;
+} */

@@ -1,15 +1,18 @@
 import React, { Component } from "react";
+import ProjectCard from './ProjectCard.js'
+import projectData from '../projectData.js'
 
- 
 class Projects extends Component {
+
+  generateProjectCards = () => {
+    return projectData.map(project => <ProjectCard title={project.title} image={project.image} description={project.description} stack={project.stack}/>)
+  }
+
   render() {
     return (
         <div className="content">
             <header id="content-header">What I've Made</header>
-
-
-
-           
+            {this.generateProjectCards()}
         </div>
     );
   }

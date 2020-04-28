@@ -19,6 +19,7 @@ class Writing extends Component {
     return (
         <div className="content">
             <header id="content-header">What I've Written</header>
+            <p id="content-description">My articles have been featured in Medium's largest tech publications including The Startup and Better Programming.</p>
 
             <div id="medium-widget"></div>
         </div>
