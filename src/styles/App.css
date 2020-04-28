@@ -142,7 +142,7 @@
 #content-description {
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
-  width: 570px;
+  width: 600px;
 
 }
 
@@ -159,6 +159,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 380px;
+  margin-bottom: 2rem;
 }
 
 .project-card-image {

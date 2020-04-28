@@ -22,7 +22,7 @@ class Projects extends Component {
     return (
         <div className="content">
             <header id="content-header">What I've Made</header>
-            <p id="content-description">Rails is my backend framework of choice, and up front I love working with React. I can pick up a new framework or language quick and building is my favorite way to learn.</p>
+            <p id="content-description">Rails is my backend framework of choice, and on the frontend I love working with React. I can pick up a new framework or language quick and building is my favorite way to learn.</p>
             <div id="project-card-container">
               {this.generateProjectCards()}
             </div>
