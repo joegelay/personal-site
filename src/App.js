@@ -4,6 +4,9 @@ import './styles/reset.css';
 import './styles/App.css';
 import About from './components/About.js'
 import Projects from './components/Projects.js'
+import Resume from './components/Resume.js'
+import Writing from './components/Writing.js'
+import Reading from './components/Reading.js'
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
 
         <Route exact path="/" component={About}/>
         <Route path="/projects" component={Projects}/>
+        <Route path="/resume" component={Resume}/>
+        <Route path="/writing" component={Writing}/>
+        <Route path="/reading" component={Reading}/>
 
       </div>
     </div>

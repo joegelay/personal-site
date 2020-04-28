@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
  
-class Projects extends Component {
+class Writing extends Component {
   render() {
     return (
         <div className="content">
-            <header id="content-header">What I've Made</header>
+            <header id="content-header">What I've Wrote</header>
 
 
 
@@ -15,4 +15,4 @@ class Projects extends Component {
   }
 }
  
-export default Projects;
+export default Writing;
