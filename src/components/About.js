@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import profilePicture from '../images/profile-picture.jpg'
-import emailIcon from '../images/003-telegram.svg'
+import emailIcon from '../images/gmail.svg'
 import linkedInIcon from '../images/001-linkedin.svg'
 import githubIcon from '../images/002-github.svg'
  

@@ -1,4 +1,14 @@
 import React, { Component } from 'react';
+import githubIcon from '../images/002-github.svg'
+import linkIcon from '../images/link.svg'
+import FLP from '../images/FineLinePhilosophy.png'
+import CLIJournal from '../images/CLIJournalApp.png'
+
+const imageMap = {
+    'FineLinePhilosophy': FLP,
+    'CLIJournalApp': CLIJournal
+}
+  
 
 export default class ProjectCard extends Component {
 
@@ -6,12 +16,26 @@ export default class ProjectCard extends Component {
     return (
       <div className="project-card">
           <ul>
+            <li>
+                <a href={this.props.link} rel="noopener noreferrer" target="_blank">
+                    <img src={imageMap[this.props.image]} alt="Project Preview"/>
+                </a>
+            </li>
             <li>{this.props.title}</li>
-            <li>{this.props.image}</li>
             <li>{this.props.description}</li>
             <li>{this.props.stack}</li>
-            <li>{this.props.github}</li>
-            <li>{this.props.link}</li>
+            <div className="project-links">
+                <li>
+                    <a className="contact-icon-a" href={this.props.link} rel="noopener noreferrer" target="_blank">
+                        <img className="contact-icon" src={linkIcon} alt="link-icon" />
+                    </a>
+                </li>
+                <li>
+                    <a className="contact-icon-a" href={this.props.github} rel="noopener noreferrer" target="_blank">
+                        <img className="contact-icon" src={githubIcon} alt="github-icon" />
+                    </a>
+                </li>
+            </div>
           </ul>
       </div>
     )

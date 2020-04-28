@@ -146,10 +146,16 @@
 
 }
 
-/* .medium-widget-article__image {
-  max-width: 650px;
+#project-card-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.medium-widget-article__image>img {
-  width: 100%;
-} */
+.project-card {
+  width: 500px;
+  overflow: hidden;
+}
+
+.project-links {
+  display: flex;
+}

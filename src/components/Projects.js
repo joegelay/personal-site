@@ -21,7 +21,9 @@ class Projects extends Component {
     return (
         <div className="content">
             <header id="content-header">What I've Made</header>
-            {this.generateProjectCards()}
+            <div id="project-card-container">
+              {this.generateProjectCards()}
+            </div>
         </div>
     );
   }
