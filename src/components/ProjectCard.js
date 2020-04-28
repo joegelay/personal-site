@@ -16,14 +16,14 @@ export default class ProjectCard extends Component {
     return (
       <div className="project-card">
           <ul>
-            <li>
+            <li className="project-card-image">
                 <a href={this.props.link} rel="noopener noreferrer" target="_blank">
-                    <img src={imageMap[this.props.image]} alt="Project Preview"/>
+                    <img className="project-card-image" src={imageMap[this.props.image]} alt="Project Preview"/>
                 </a>
             </li>
-            <li>{this.props.title}</li>
-            <li>{this.props.description}</li>
-            <li>{this.props.stack}</li>
+            <li className="project-card-title">{this.props.title}</li>
+            <li className="project-card-description">{this.props.description}</li>
+            <li className="project-card-stack">{this.props.stack}</li>
             <div className="project-links">
                 <li>
                     <a className="contact-icon-a" href={this.props.link} rel="noopener noreferrer" target="_blank">
