@@ -41,13 +41,13 @@ function App() {
         </div>
 
         <nav id="contact-nav">
-          <a classNane="contact-icon-a" href="mailto:joegelay@gmail.com?Subject=Hello!" target="_top">        
+          <a className="contact-icon-a" href="mailto:joegelay@gmail.com?Subject=Hello!" target="_top">        
             <img className="contact-icon" src={emailIcon} alt="email-icon"/>
           </a>
-          <a classNane="contact-icon-a" href="https://amazon.com" rel="noopener noreferrer" target="_blank">
+          <a className="contact-icon-a" href="https://amazon.com" rel="noopener noreferrer" target="_blank">
             <img className="contact-icon" src={linkedInIcon} alt="linkedin-icon"/>
           </a>
-          <a classNane="contact-icon-a" href="https://github.com/joegelay" rel="noopener noreferrer" target="_blank">
+          <a className="contact-icon-a" href="https://github.com/joegelay" rel="noopener noreferrer" target="_blank">
             <img className="contact-icon" src={githubIcon} alt="github-icon" />
           </a>
         </nav>
