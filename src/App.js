@@ -2,11 +2,12 @@ import React from 'react';
 import { Route, NavLink, HashRouter } from "react-router-dom";
 import './styles/reset.css';
 import './styles/App.css';
-import About from './components/About.js'
-import Projects from './components/Projects.js'
-import Resume from './components/Resume.js'
-import Writing from './components/Writing.js'
-import Reading from './components/Reading.js'
+import './styles/goodreads.css';
+import About from './components/About.js';
+import Projects from './components/Projects.js';
+import Resume from './components/Resume.js';
+import Writing from './components/Writing.js';
+import Reading from './components/Reading.js';
 
 function App() {
   return (
