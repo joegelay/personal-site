@@ -11,13 +11,6 @@ function App() {
     <div className="App">
       <div id="main-display">
 
-        {/* <nav className="main-nav">
-          <a className="main-nav-link" href="/home.html">About</a>
-          <a className="main-nav-link" href="/projects.html">Projects</a>
-          <a className="main-nav-link" href="/resume.html">Resume</a>
-          <a className="main-nav-link" href="/writing.html">Writing</a>
-          <a className="main-nav-link" href="/reading.html">Reading</a>
-        </nav> */}
         <nav className="main-nav">
           <NavLink className="main-nav-link" exact to="/">About</NavLink>
           <NavLink className="main-nav-link" to="/projects">Projects</NavLink>

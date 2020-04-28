@@ -7,7 +7,7 @@ import githubIcon from '../images/002-github.svg'
 class About extends Component {
   render() {
     return (
-        <div>
+        <div className="content">
             <header id="hi">Hi, I'm Joe.</header>
 
             <div id="blurb-and-image">
