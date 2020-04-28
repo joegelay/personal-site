@@ -13,6 +13,7 @@ class Projects extends Component {
         stack={project.stack} 
         github={project.github} 
         link={project.link}
+        youtube={project.youtube}
       />
     )
   }
@@ -21,7 +22,7 @@ class Projects extends Component {
     return (
         <div className="content">
             <header id="content-header">What I've Made</header>
-            <p id="content-description">Rails is my backend framework of choice, and I love working with React up front. That said, I can pick up a new framework or language quick. Building is my favorite way to learn.</p>
+            <p id="content-description">Rails is my backend framework of choice, and up front I love working with React. I can pick up a new framework or language quick and building is my favorite way to learn.</p>
             <div id="project-card-container">
               {this.generateProjectCards()}
             </div>
