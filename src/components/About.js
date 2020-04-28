@@ -32,7 +32,7 @@ class About extends Component {
             <a className="contact-icon-a" href="mailto:joegelay@gmail.com?Subject=Hello!" target="_top">        
                 <img className="contact-icon" src={emailIcon} alt="email-icon"/>
             </a>
-            <a className="contact-icon-a" href="https://amazon.com" rel="noopener noreferrer" target="_blank">
+            <a className="contact-icon-a" href="https://www.linkedin.com/in/josephgelay/" rel="noopener noreferrer" target="_blank">
                 <img className="contact-icon" src={linkedInIcon} alt="linkedin-icon"/>
             </a>
             <a className="contact-icon-a" href="https://github.com/joegelay" rel="noopener noreferrer" target="_blank">

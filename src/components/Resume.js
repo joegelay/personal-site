@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PDF from '../images/JGelayResume.pdf';
 import ResumeImg from '../images/JGelayResume.png'
-import './DownloadResume.css';
+import '../styles/resume.css';
 
  
 class Resume extends Component {
