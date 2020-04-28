@@ -32,6 +32,8 @@
     /* customize each individual book container here */
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     width: 20%;
     clear: both;
     margin-bottom: 10px;
@@ -42,10 +44,8 @@
 .gr_custom_book_container_1588112847 {
     /* customize your book covers here */
     overflow: hidden;
-    height: 160px;
-    float: left;
     margin-right: 4px;
-    width: 98px;
+    width: 100px;
 }
 
 .gr_custom_author_1588112847 {
