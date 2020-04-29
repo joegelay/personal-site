@@ -7,7 +7,7 @@ class Reading extends Component {
     return (
         <div className="content">
             <header id="content-header">What I'm Reading.</header>
-            <p id="content-description">I seldom miss a day of reading. Here's what I've been into as of late.</p>
+            <p id="content-description">I seldom miss a day of reading. Here's what I've read most recently.</p>
 
             <GoodreadsWidget />
         </div>

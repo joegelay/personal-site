@@ -178,13 +178,6 @@ class GoodreadsWidget extends Component {
                   &quot;The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts.&quot; -- Bertrand Russell
                 </div>
             </div>
-      
-        <center>
-          <a rel="noopener noreferrer" target="_blank" href="https://www.goodreads.com/user/show/57355124-joe"><img alt="goodreads.com" src="https://www.goodreads.com/images/widget/widget_logo.gif" /></a>
-        </center>
-        <noscript>
-          Share <a rel="noopener noreferrer" target="_blank" href="https://www.goodreads.com/">book reviews</a> and ratings with Joe, and even join a <a rel="noopener noreferrer" target="_blank" href="https://www.goodreads.com/group">book club</a> on Goodreads.
-        </noscript>
         </div>
       
             </div>
