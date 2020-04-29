@@ -63,3 +63,7 @@
 img {
     vertical-align: bottom;
 }
+
+center {
+    display: none;
+}

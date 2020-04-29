@@ -10,6 +10,7 @@ class Reading extends Component {
             <p id="content-description">I seldom miss a day of reading. Here's what I've read most recently.</p>
 
             <GoodreadsWidget />
+            
         </div>
     );
   }
