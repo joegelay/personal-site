@@ -13,7 +13,6 @@
     display: flex;
     flex-wrap: wrap;
     color: #000000;
-
 }
 
 .gr_custom_header_1588112847 {
@@ -35,9 +34,6 @@
 
 .gr_custom_book_container_1588112847 {
     /* customize your book covers here */
-    overflow: hidden;
-    margin-right: 4px;
-    width: 100px;
     box-shadow: 0px 4px 9px -2px rgba(0, 0, 0, 0.75);
 }
 
@@ -62,4 +58,8 @@
 
 .gr_custom_review_1588112847 {
     display: none;
+}
+
+img {
+    vertical-align: bottom;
 }

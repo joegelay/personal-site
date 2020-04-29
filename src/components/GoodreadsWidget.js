@@ -181,7 +181,7 @@ class GoodreadsWidget extends Component {
         </div>
       
             </div>
-            <script src="https://www.goodreads.com/review/custom_widget/57355124.Joe's%20bookshelf:%20read?cover_position=left&cover_size=medium&num_books=10&order=d&shelf=read&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=date_read&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1588112847&widget_text_color=000000&widget_title_size=medium&widget_width=full" type="text/javascript" charSet="utf-8"></script>
+            <script src="https://www.goodreads.com/review/custom_widget/57355124.Joe's%20bookshelf:%20read?cover_position=left&amp;cover_size=medium&amp;num_books=10&amp;order=d&amp;shelf=read&amp;show_author=1&amp;show_cover=1&amp;show_rating=1&amp;show_review=1&amp;show_tags=1&amp;show_title=1&amp;sort=date_read&amp;widget_bg_color=FFFFFF&amp;widget_bg_transparent=&amp;widget_border_width=1&amp;widget_id=1588112847&amp;widget_text_color=000000&amp;widget_title_size=medium&amp;widget_width=full" type="text/javascript" charSet="utf-8"></script>
         </div>
     );
   }
