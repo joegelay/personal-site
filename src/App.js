@@ -19,8 +19,8 @@ function App() {
           <NavLink className="main-nav-link" exact to="/">About</NavLink>
           <NavLink className="main-nav-link" to="/projects">Projects</NavLink>
           <NavLink className="main-nav-link" to="/writing">Writing</NavLink>
-          <NavLink className="main-nav-link" to="/resume">Resume</NavLink>
           <NavLink className="main-nav-link" to="/reading">Reading</NavLink>
+          <NavLink className="main-nav-link" to="/resume">Resume</NavLink>
         </nav>
 
         <Route exact path="/" component={About}/>

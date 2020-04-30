@@ -2,6 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: rgb(45, 45, 45);
+}
+
+
+html {
+  display: block;
+  position: relative;
+}
+
+html::after {
+  content: "";
+  background: url('../images/bg-two.jpg');
+  /* background-position: center center; */
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+
 }
 
 .App {
@@ -9,6 +33,7 @@
   display: flex;
   justify-content: center;
   height: 100vh;
+
 }
 
 #main-display {
@@ -20,6 +45,7 @@
   width: 100%;
   max-width: 1500px;
   height: 100vh;
+
 }
 
 .content {
@@ -39,7 +65,7 @@
   margin-left: 2rem;
   position: relative;
   text-decoration: none;
-  color: black;
+  color: rgb(45, 45, 45);
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -51,7 +77,7 @@
   height: 4px;
   bottom: -25%;
   left: 0;
-  background-color: black;
+  color: rgb(45, 45, 45);
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -100,7 +126,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  border: 4px solid black;
+  border: 4px solid rgb(45, 45, 45);
 }
 
 #profile-picture {
@@ -159,6 +185,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 380px;
+  margin-top: -1rem;
   margin-bottom: 2rem;
 }
 
@@ -168,7 +195,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1rem;
+  border: solid 2px rgb(45, 45, 45);
 }
 
 .project-card-title {
@@ -178,6 +205,7 @@
   color: rgba(0, 0, 0, 0.9);
   border: none;
   text-decoration: none;
+  margin-top: 1rem;
 }
 
 .project-card-description {
