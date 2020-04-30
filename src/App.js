@@ -9,7 +9,19 @@ import Resume from './components/Resume.js';
 import Writing from './components/Writing.js';
 import Reading from './components/Reading.js';
 
+function toggleMenu() {
+  const mainNav = document.querySelector('.main-nav')
+  mainNav.classList.toggle("open")
+
+  const hamburger = document.querySelectorAll('.line')
+  hamburger.forEach( line => {
+    line.classList.toggle("open")
+  })
+  
+}
+
 function App() {
+
   return (
     <HashRouter>
     <div className="App">
@@ -23,7 +35,7 @@ function App() {
           <NavLink className="main-nav-link" to="/resume">Resume</NavLink>
         </nav>
 
-        <div id="hamburger">
+        <div id="hamburger" onClick={() => toggleMenu() }>
             <div className="line"></div>
             <div className="line"></div>
             <div className="line"></div>
