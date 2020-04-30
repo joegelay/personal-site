@@ -67,3 +67,28 @@ img {
 center {
     display: none;
 }
+
+@media (max-width: 795px) {
+
+    .gr_custom_container_1588112847 {
+        /* customize your Goodreads widget container here*/
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: #000000;
+    }
+
+    .gr_custom_each_container_1588112847 {
+        /* customize each individual book container here */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 220px;
+        margin-bottom: 2rem;
+        overflow: auto;
+        text-align: center;
+    }
+
+}
