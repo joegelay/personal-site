@@ -147,7 +147,8 @@ html::after {
 }
 
 .contact-icon {
-  width: 30%;
+  width: 2rem;
+  margin-right: 2rem;
   transition: all .2s ease-in-out;
 }
 
@@ -234,7 +235,7 @@ html::after {
   transform: scale(1.2);
 }
 
-@media (max-width: 794px) {
+@media (max-width: 795px) {
   .main-nav {
     display: none;
   }
@@ -243,8 +244,35 @@ html::after {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
     width: 100%;
     max-width: 1500px;
+  }
+
+  #hi {
+    margin-bottom: 2rem;
+    text-align: center;
+    min-width: 370px;
+  }
+
+  #blurb {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-top: 2rem;
+    /* margin-right: 2rem; */
+    max-width: 1100px;
+  }
+
+  #contact-nav {
+    margin-top: 3rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
   }
 }
