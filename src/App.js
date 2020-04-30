@@ -28,11 +28,11 @@ function App() {
       <div id="main-display">
 
         <nav className="main-nav">
-          <NavLink className="main-nav-link" exact to="/">About</NavLink>
-          <NavLink className="main-nav-link" to="/projects">Projects</NavLink>
-          <NavLink className="main-nav-link" to="/writing">Writing</NavLink>
-          <NavLink className="main-nav-link" to="/reading">Reading</NavLink>
-          <NavLink className="main-nav-link" to="/resume">Resume</NavLink>
+          <NavLink onClick={() => toggleMenu() } className="main-nav-link" exact to="/">About</NavLink>
+          <NavLink onClick={() => toggleMenu() } className="main-nav-link" to="/projects">Projects</NavLink>
+          <NavLink onClick={() => toggleMenu() } className="main-nav-link" to="/writing">Writing</NavLink>
+          <NavLink onClick={() => toggleMenu() } className="main-nav-link" to="/reading">Reading</NavLink>
+          <NavLink  onClick={() => toggleMenu() } className="main-nav-link" to="/resume">Resume</NavLink>
         </nav>
 
         <div id="hamburger" onClick={() => toggleMenu() }>
