@@ -278,7 +278,7 @@ html::after {
   }
 
   .main-nav-link {
-    margin-left: 2rem;
+    margin-left: 0rem;
     position: relative;
     text-decoration: none;
     color: whitesmoke;
@@ -346,5 +346,84 @@ html::after {
   .contact-icon {
     width: 2rem;
     margin-right: 0rem;
+  }
+
+  #content-header {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+    font-size: 4.5rem;
+    width: 100%;
+    max-width: 450px;
+  }
+
+  #content-description {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    max-width: 300px;
+    text-align: center;
+    align-self: center;
+  }
+
+  #project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 2rem;
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 380px;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .project-card-image {
+    width: 100%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(45, 45, 45);
+  }
+
+  .project-card-title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.9);
+    border: none;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+
+  .project-card-description {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    line-height: 1.3em;
+  }
+
+  .project-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .project-icon {
+    width: 30px;
+    margin-right: 1rem;
+    transition: all .2s ease-in-out;
   }
 }
