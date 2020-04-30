@@ -175,7 +175,7 @@ html::after {
 #project-card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 
   margin-top: 2rem;
 }
@@ -187,6 +187,7 @@ html::after {
   width: 380px;
   margin-top: -1rem;
   margin-bottom: 2rem;
+  padding-right: 2rem;
 }
 
 .project-card-image {
