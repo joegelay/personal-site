@@ -23,6 +23,12 @@ function App() {
           <NavLink className="main-nav-link" to="/resume">Resume</NavLink>
         </nav>
 
+        <div id="hamburger">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+        </div>
+
         <Route exact path="/" component={About}/>
         <Route path="/projects" component={Projects}/>
         <Route path="/resume" component={Resume}/>

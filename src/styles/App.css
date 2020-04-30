@@ -7,7 +7,6 @@
   color: rgb(45, 45, 45);
 }
 
-
 html {
   display: block;
   position: relative;
@@ -31,11 +30,8 @@ html::after {
 }
 
 .App {
-  margin: 2.5rem 7rem 0rem 7rem;
   display: flex;
   justify-content: center;
-  height: 100vh;
-
 }
 
 #main-display {
@@ -47,6 +43,7 @@ html::after {
   width: 100%;
   max-width: 1500px;
   height: 100vh;
+  margin: 2.5rem 7rem 0rem 7rem;
 
 }
 
@@ -235,9 +232,39 @@ html::after {
 }
 
 @media (max-width: 795px) {
+
+  #hamburger {
+    display: block;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-top: -1rem;
+    margin-right: 1rem;
+  }
+
+  .line {
+    width: 35px;
+    height: 6px;
+    background: rgb(45, 45, 45);
+    margin: 5px;
+  }
+
   .main-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: unset;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background: lightblue;
+    z-index: 1;
+    top: 0px;
     display: none;
   }
+
+  /* .main-nav {
+    display: none;
+  } */
 
   #blurb-and-image {
     display: flex;
