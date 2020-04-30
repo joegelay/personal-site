@@ -51,7 +51,6 @@ html::after {
 }
 
 .content {
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -247,13 +246,13 @@ html::after {
     text-align: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1500px;
   }
 
   #hi {
     margin-bottom: 2rem;
     text-align: center;
     min-width: 370px;
+    font-size: 4rem;
   }
 
   #blurb {
@@ -262,6 +261,8 @@ html::after {
     margin-top: 2rem;
     margin-right: 0;
     max-width: 1100px;
+    width: 100%;
+    padding: 0 1rem;
   }
 
   #contact-nav {
