@@ -6,6 +6,7 @@ import './styles/goodreads.css';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
 import Resume from './components/Resume.js';
+import PDF from './images/JGelayResume.pdf';
 import Writing from './components/Writing.js';
 import Reading from './components/Reading.js';
 
@@ -32,7 +33,8 @@ function App() {
           <NavLink onClick={() => toggleMenu() } className="main-nav-link" to="/projects">Projects</NavLink>
           <NavLink onClick={() => toggleMenu() } className="main-nav-link" to="/writing">Writing</NavLink>
           <NavLink onClick={() => toggleMenu() } className="main-nav-link" to="/reading">Reading</NavLink>
-          <NavLink  onClick={() => toggleMenu() } className="main-nav-link" to="/resume">Resume</NavLink>
+          {/* <NavLink  onClick={() => toggleMenu() } className="main-nav-link" to="/resume">Resume</NavLink> */}
+          <a className="main-nav-link" href={PDF} rel="noopener noreferrer" target="_blank">Resume</a>
         </nav>
 
         <div id="hamburger" onClick={() => toggleMenu() }>

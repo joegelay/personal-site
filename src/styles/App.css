@@ -7,9 +7,16 @@
   color: rgb(45, 45, 45);
 }
 
+body {
+  height: 100vh;
+  overflow: auto
+}
+
 html {
   display: block;
   position: relative;
+  height: 100vh;
+  overflow: auto
 }
 
 html::after {
@@ -50,6 +57,7 @@ html::after {
 .content {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .main-nav {
@@ -152,10 +160,9 @@ html::after {
   transform: scale(1.2);
 }
 
-#content-header {
-  justify-self: center;
-  align-self: center;
 
+
+#content-header {
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
   font-weight: 900;

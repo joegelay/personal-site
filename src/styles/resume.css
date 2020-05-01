@@ -48,3 +48,19 @@
     position: relative;
     top: 1px;
 }
+
+@media (max-width: 795px) {
+
+    .resume {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 3em;
+    }
+
+    .resume-image {
+        width: 50vh;
+        align-self: center;
+    }
+
+}
