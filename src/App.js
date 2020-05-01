@@ -32,7 +32,7 @@ function App() {
           <NavLink onClick={() => toggleMenu() } className="main-nav-link" to="/projects">Projects</NavLink>
           <NavLink onClick={() => toggleMenu() } className="main-nav-link" to="/writing">Writing</NavLink>
           <NavLink onClick={() => toggleMenu() } className="main-nav-link" to="/reading">Reading</NavLink>
-          <a className="main-nav-link" href={PDF} rel="noopener noreferrer" target="_blank">Resume</a>
+          <a onClick={() => toggleMenu() } className="main-nav-link" href={PDF} rel="noopener noreferrer" target="_blank">Resume</a>
         </nav>
 
         <div id="hamburger" onClick={() => toggleMenu() }>
