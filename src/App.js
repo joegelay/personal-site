@@ -17,7 +17,6 @@ function toggleMenu() {
   hamburger.forEach( line => {
     line.classList.toggle("open")
   })
-  
 }
 
 function App() {
