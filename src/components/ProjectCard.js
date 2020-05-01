@@ -3,11 +3,13 @@ import githubIcon from '../images/002-github.svg'
 import linkIcon from '../images/link.svg'
 import youtubeIcon from '../images/youtube.svg'
 import FLP from '../images/FineLinePhilosophy.png'
-import CLIJournal from '../images/CLIJournalApp.png'
+import CLIJournalApp from '../images/CLIJournalApp.png'
+import Barterbook from '../images/Barterbook.png'
 
 const imageMap = {
     'FineLinePhilosophy': FLP,
-    'CLIJournalApp': CLIJournal
+    'CLIJournalApp': CLIJournalApp,
+    'Barterbook': Barterbook
 }
   
 

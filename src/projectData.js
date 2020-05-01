@@ -3,7 +3,7 @@ const projectData = [
         title: 'Fine Line Philosophy',
         image: 'FineLinePhilosophy',
         description: "What's the line between... passion and obsesssion, contentment and compacency, confidence and arrogance? Fine Line Philosophy was created to parse out meaning, parallels, and contrasts of similar but often confused words or ideas such as these.",
-        stack: 'Rails, PostgreSQL, Javascript, HTML + CSS, ScrollMagic.js',
+        stack: 'Rails, PostgreSQL, Vanilla JS, HTML + CSS, ScrollMagic.js',
         github: 'https://github.com/joegelay/fine-line-philosophy-frontend',
         link: 'https://finelinephilosophy.com',
         youtube: 'https://www.youtube.com/watch?v=Hp6zfkOzCyA'
@@ -17,13 +17,12 @@ const projectData = [
         youtube: 'https://www.youtube.com/watch?v=G5__x6t5CQs'
     },
     {
-        title: 'Fine Line Philosophy',
-        image: 'FineLinePhilosophy',
-        description: "What's the line between... passion and obsesssion, contentment and compacency, confidence and arrogance? Fine Line Philosophy was created to parse out meaning, parallels, and contrasts of similar but often confused words or ideas such as these.",
-        stack: 'Rails, PostgreSQL, Javascript, HTML + CSS, ScrollMagic.js',
-        github: 'https://github.com/joegelay/fine-line-philosophy-frontend',
-        link: 'https://finelinephilosophy.com',
-        youtube: 'https://www.youtube.com/watch?v=Hp6zfkOzCyA'
+        title: 'Barterbook',
+        image: 'Barterbook',
+        description: "Barterbook is a community-based skill sharing app built on the idea that everyone has something to teach, and something they want to learn.",
+        stack: 'Rails, Vanilla JS, HTML + CSS, Bootstrap',
+        github: 'https://github.com/joegelay/Mod2Project_BarterBook',
+        youtube: 'https://www.youtube.com/watch?v=258CrIi6kJg'
     },
   ]
   
