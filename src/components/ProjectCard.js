@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import githubIcon from '../images/002-github.svg'
+import githubIcon from '../images/github.svg'
 import linkIcon from '../images/link.svg'
 import youtubeIcon from '../images/youtube.svg'
 import FLP from '../images/FineLinePhilosophy.png'

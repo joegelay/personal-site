@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import profilePicture from '../images/profile-picture.jpg'
 import emailIcon from '../images/gmail.svg'
-import linkedInIcon from '../images/001-linkedin.svg'
-import githubIcon from '../images/002-github.svg'
+import linkedInIcon from '../images/linkedin.svg'
+import githubIcon from '../images/github.svg'
  
 class About extends Component {
   render() {
