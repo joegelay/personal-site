@@ -12,7 +12,7 @@ class About extends Component {
 
             <div id="blurb-and-image">
 
-            <p id="blurb">I love to learn everything, solve problems, and connect people.
+            <p id="blurb">I'm a full stack developer with a deep love for learning, solving problems, and connecting people.
             <br></br> 
             <br></br> 
             My background in marketing analytics has shaped me into being a detail-oriented thinker 
