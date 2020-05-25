@@ -440,7 +440,6 @@ html::after {
   }
 
   .medium-widget-article__item {
-    max-width: 100%;
-    min-width: 100%;
+    min-width: 100% !important;
   }
 }
