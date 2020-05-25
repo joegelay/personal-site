@@ -9,8 +9,7 @@ class Reading extends Component {
             <header id="content-header">What I'm Reading.</header>
             <p id="content-description">I seldom miss a day of reading. Here's what I've been into lately...</p>
 
-            <GoodreadsWidget />
-            
+            <GoodreadsWidget />     
         </div>
     );
   }

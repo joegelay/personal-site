@@ -12,7 +12,6 @@ const imageMap = {
     'Barterbook': Barterbook
 }
   
-
 export default class ProjectCard extends Component {
 
     checkLink = () => {
