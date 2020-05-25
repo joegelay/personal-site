@@ -246,7 +246,7 @@ html::after {
 }
 
 
-@media (max-width: 795px) {
+@media screen and (max-width: 795px) {
 
   #hamburger {
     display: block;
