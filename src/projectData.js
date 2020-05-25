@@ -1,5 +1,14 @@
 const projectData = [
     {
+        title: 'KindCard',
+        image: 'KindCard',
+        description: "How much impact can a single act of kindness have? KindCard aims to track these interactions to show their true impact.",
+        stack: 'React.js, Leaflet.js, Node, Express.js, CSS, PostgreSQL',
+        github: 'https://github.com/joegelay/kindcard-frontend',
+        link: 'https://kindcardmap.com',
+        // youtube: 'https://www.youtube.com/watch?v=Hp6zfkOzCyA'
+    },
+    {
         title: 'Fine Line Philosophy',
         image: 'FineLinePhilosophy',
         description: "What's the line between... passion and obsesssion, contentment and compacency, confidence and arrogance? Fine Line Philosophy was created to parse out meaning, parallels, and contrasts of similar but often confused words or ideas such as these.",

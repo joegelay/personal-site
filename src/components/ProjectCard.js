@@ -5,11 +5,13 @@ import youtubeIcon from '../images/youtube.svg'
 import FLP from '../images/FineLinePhilosophy.png'
 import CLIJournalApp from '../images/CLIJournalApp.png'
 import Barterbook from '../images/Barterbook.png'
+import KindCard from '../images/KindCard.png'
 
 const imageMap = {
     'FineLinePhilosophy': FLP,
     'CLIJournalApp': CLIJournalApp,
-    'Barterbook': Barterbook
+    'Barterbook': Barterbook,
+    'KindCard': KindCard
 }
   
 export default class ProjectCard extends Component {
