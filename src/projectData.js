@@ -11,7 +11,7 @@ const projectData = [
     {
         title: 'Fine Line Philosophy',
         image: 'FineLinePhilosophy',
-        description: "What's the line between... passion and obsesssion, contentment and compacency, confidence and arrogance? Fine Line Philosophy was created to parse out meaning, parallels, and contrasts of similar but often confused words or ideas such as these.",
+        description: "Fine Line Philosophy was created to parse out meaning, parallels, and contrasts of similar but often confused words or ideas.",
         stack: 'Rails, PostgreSQL, Vanilla JS, HTML + CSS, ScrollMagic.js',
         github: 'https://github.com/joegelay/fine-line-philosophy-frontend',
         link: 'https://finelinephilosophy.com',
