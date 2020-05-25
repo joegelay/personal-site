@@ -233,7 +233,7 @@ html::after {
 }
 
 .medium-widget-article__row {
-  flex-direction: row;
+  flex-direction: row !important;
 }
 
 .medium-widget-article__item {
@@ -440,7 +440,7 @@ html::after {
   }
 
   .medium-widget-article__row {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
   .medium-widget-article__item {
