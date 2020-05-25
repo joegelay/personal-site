@@ -232,6 +232,10 @@ html::after {
   transform: scale(1.2);
 }
 
+.medium-widget-article__row {
+  flex-direction: row;
+}
+
 .medium-widget-article__item {
   font-size: 14px;
   padding-top: 15px;
@@ -436,10 +440,10 @@ html::after {
   }
 
   .medium-widget-article__row {
-    flex-direction: column !important;
+    flex-direction: column;
   }
 
   .medium-widget-article__item {
-    min-width: 100% !important;
+    min-width: 100%;
   }
 }
