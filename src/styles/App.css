@@ -112,6 +112,9 @@ html::after {
   justify-content: space-between;
   width: 100%;
   max-width: 1500px;
+
+  -webkit-flex: 0;
+  flex-shrink: 0;
 }
 
 #blurb {
@@ -146,6 +149,9 @@ html::after {
   display: flex;
   width: 100%;
   justify-content: flex-start;
+
+  -webkit-flex: 0;
+  flex-shrink: 0;
 }
 
 .contact-icon {
@@ -179,6 +185,8 @@ html::after {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-top: 2rem;
+
+  align-items: flex-start;
 }
 
 .project-card {
@@ -348,6 +356,7 @@ html::after {
     margin-top: 3rem;
     display: flex;
     width: 100%;
+    max-height: 100px;
     justify-content: space-evenly;
     margin-bottom: 2rem;
   }
@@ -386,9 +395,10 @@ html::after {
 
   #project-card-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 2rem;
+
+    flex: 0 0 auto;
   }
 
   .project-card {
@@ -400,14 +410,19 @@ html::after {
     margin-bottom: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
+
+    flex: 0 0 auto;
   }
 
   .project-card-image {
     width: 100%;
+    max-height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: solid 1px rgb(45, 45, 45);
+
+    flex: 1 0 auto;
   }
 
   .project-card-title {
@@ -418,6 +433,8 @@ html::after {
     border: none;
     text-decoration: none;
     margin-top: 1rem;
+
+    flex: 0 0 auto;
   }
 
   .project-card-description {
@@ -431,12 +448,17 @@ html::after {
     margin-top: 1rem;
     display: flex;
     justify-content: flex-start;
+
+    align-items: center;
+    max-height: 40px;
   }
 
   .project-icon {
     width: 30px;
     margin-right: 1rem;
     transition: all .2s ease-in-out;
+
+    flex: 0 0 auto;
   }
 
   .medium-widget-article__row {
