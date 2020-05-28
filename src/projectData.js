@@ -6,7 +6,7 @@ const projectData = [
         stack: 'React.js, Leaflet.js, Node, Express.js, CSS, PostgreSQL',
         github: 'https://github.com/joegelay/kindcard-frontend',
         link: 'https://kindcardmap.com',
-        // youtube: 'https://www.youtube.com/watch?v=Hp6zfkOzCyA'
+        youtube: 'https://www.youtube.com/watch?v=UNF6YMRWQWQ'
     },
     {
         title: 'Fine Line Philosophy',
