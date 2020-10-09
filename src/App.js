@@ -5,7 +5,7 @@ import './styles/App.css';
 import './styles/goodreads.css';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
-import PDF from './images/JGelay.pdf';
+import PDF from './images/JGelayResume.pdf';
 import Writing from './components/Writing.js';
 import Reading from './components/Reading.js';
 
