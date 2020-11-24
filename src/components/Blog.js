@@ -20,7 +20,6 @@ class Blog extends Component {
               article.categories.includes('programming')
             ),
           });
-          //   console.log(this.state.items);
         },
         (error) => {
           this.setState({
@@ -52,7 +51,6 @@ class Blog extends Component {
                   <a href={article.link}>{article.title}</a>
                 </div>
                 <div className="article-date">
-                  {/* {article.pubDate} */}
                   {new Date(article.pubDate)
                     .toDateString()
                     .split(' ')
