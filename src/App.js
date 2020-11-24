@@ -3,11 +3,13 @@ import { Route, NavLink, HashRouter } from 'react-router-dom';
 import './styles/reset.css';
 import './styles/App.css';
 import './styles/goodreads.css';
+import './styles/blog.css';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
 import PDF from './images/JGelayResume.pdf';
-import Writing from './components/Writing.js';
+// import Writing from './components/Writing.js';
 import Reading from './components/Reading.js';
+import Blog from './components/Blog.js';
 
 function toggleMenu() {
   const mainNav = document.querySelector('.main-nav');
@@ -73,7 +75,7 @@ function App() {
 
           <Route exact path="/" component={About} />
           <Route path="/projects" component={Projects} />
-          <Route path="/writing" component={Writing} />
+          <Route path="/writing" component={Blog} />
           <Route path="/reading" component={Reading} />
         </div>
       </div>

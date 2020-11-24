@@ -1,0 +1,29 @@
+#medium-widget {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.article-card {
+  width: 350px;
+  padding: 1rem 2rem 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.article-title {
+  margin: 1rem 0;
+  text-decoration: none;
+}
+
+.article-title a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .article-card {
+    padding: 1rem;
+  }
+}
