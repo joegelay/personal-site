@@ -10,76 +10,86 @@ import PDF from './images/JGelayResume.pdf';
 import Reading from './components/Reading.js';
 import Blog from './components/Blog.js';
 
-function toggleMenu() {
-  const mainNav = document.querySelector('.main-nav');
-  mainNav.classList.toggle('open');
+const App = () => {
+  const removeMobileMenu = () => {
+    const mainNav = document.querySelector('.main-nav');
+    mainNav.classList.remove('open');
 
-  const hamburger = document.querySelectorAll('.line');
-  hamburger.forEach((line) => {
-    line.classList.toggle('open');
-  });
-}
+    const hamburger = document.querySelectorAll('.line');
+    hamburger.forEach((line) => {
+      line.classList.remove('open');
+    });
+  };
 
-function App() {
+  const toggleHamMenu = () => {
+    const mainNav = document.querySelector('.main-nav');
+    mainNav.classList.toggle('open');
+
+    const hamburger = document.querySelectorAll('.line');
+    hamburger.forEach((line) => {
+      line.classList.toggle('open');
+    });
+  };
+
   return (
     <HashRouter>
-      <div className="App">
-        <div id="main-display">
-          <nav className="main-nav">
+      <div className='App'>
+        <div id='main-display'>
+          <nav className='main-nav'>
             <NavLink
-              onClick={() => toggleMenu()}
-              className="main-nav-link"
+              onClick={() => removeMobileMenu()}
+              className='main-nav-link'
               exact
-              to="/"
+              to='/'
             >
               About
             </NavLink>
             <NavLink
-              onClick={() => toggleMenu()}
-              className="main-nav-link"
-              to="/projects"
+              onClick={() => removeMobileMenu()}
+              className='main-nav-link'
+              to='/projects'
             >
               Projects
             </NavLink>
             <NavLink
-              onClick={() => toggleMenu()}
-              className="main-nav-link"
-              to="/writing"
+              onClick={() => removeMobileMenu()}
+              className='main-nav-link'
+              to='/writing'
             >
               Writing
             </NavLink>
             <NavLink
-              onClick={() => toggleMenu()}
-              className="main-nav-link"
-              to="/reading"
+              onClick={() => removeMobileMenu()}
+              className='main-nav-link'
+              to='/reading'
             >
               Reading
             </NavLink>
             <a
-              onClick={() => toggleMenu()}
-              className="main-nav-link"
+              onClick={() => removeMobileMenu()}
+              className='main-nav-link'
               href={PDF}
-              rel="noopener noreferrer"
-              target="_blank"
+              rel='noopener noreferrer'
+              target='_blank'
             >
               Resume
             </a>
           </nav>
 
-          <div id="hamburger" onClick={() => toggleMenu()}>
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
+          <div id='hamburger' onClick={() => toggleHamMenu()}>
+            <div className='line'></div>
+            <div className='line'></div>
+            <div className='line'></div>
           </div>
 
-          <Route exact path="/" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/writing" component={Blog} />
-          <Route path="/reading" component={Reading} />
+          <Route exact path='/' component={About} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/writing' component={Blog} />
+          <Route path='/reading' component={Reading} />
         </div>
       </div>
     </HashRouter>
   );
-}
+};
 
 export default App;
