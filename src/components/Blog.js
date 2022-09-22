@@ -32,25 +32,25 @@ class Blog extends Component {
 
   render() {
     return (
-      <div className="content">
-        <header id="content-header">What I've Written.</header>
-        <p id="content-description">
+      <div className='content'>
+        <header id='content-header'>What I've Written.</header>
+        <p id='content-description'>
           My articles have been featured in Medium's largest tech publications
           including The Startup and Better Programming.
         </p>
 
-        <div id="medium-widget">
+        <div id='medium-widget'>
           {!this.state.isLoaded && <p>Fetching data from Medium!</p>}
           {this.state.isLoaded &&
             this.state.items.map((article) => (
-              <div className="article-card" key={article.guid}>
-                <a className="article-image" href={article.link}>
-                  <img width="100%" src={article.thumbnail} alt="img" />
+              <div className='article-card' key={article.guid}>
+                <a className='article-image' href={article.link}>
+                  <img width='100%' src={article.thumbnail} alt='img' />
                 </a>
-                <div className="article-title">
+                <div className='article-title'>
                   <a href={article.link}>{article.title}</a>
                 </div>
-                <div className="article-date">
+                <div className='article-date'>
                   {new Date(article.pubDate)
                     .toDateString()
                     .split(' ')
