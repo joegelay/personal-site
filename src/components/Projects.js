@@ -23,9 +23,9 @@ class Projects extends Component {
       <div className='content'>
         <header id='content-header'>What I've Made.</header>
         <p id='content-description'>
-          My preferred stack is a Rails backend + React on the front. That said,
-          I'm quick to pick up any new language or framework needed for a
-          project. Building is my favorite way to learn.
+          Building projects is my favorite way to learn new technologies.
+          <br />
+          I'm quick to pick up any new language or framework needed for a job.
         </p>
         <div id='project-card-container'>{this.generateProjectCards()}</div>
       </div>
