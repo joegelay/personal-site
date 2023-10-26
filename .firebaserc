@@ -1,6 +1,9 @@
 {
   "projects": {
     "default": "personal-site-b5a39",
-    "firebase-personal-site-deploy": "personal-site-b5a39"
-  }
+    "firebase-personal-site-deploy": "personal-site-b5a39",
+    "prod": "personal-site-b5a39"
+  },
+  "targets": {},
+  "etags": {}
 }
