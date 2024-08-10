@@ -12,17 +12,18 @@ class About extends Component {
 
         <div id='blurb-and-image'>
           <p id='blurb'>
-            I'm a full stack developer with a deep love for learning, solving
-            problems, and connecting people.
+            I'm a full stack developer driven by a passion for learning and
+            solving complex problems. I thrive on building meaningful
+            connections, both through code and collaboration.
             <br></br>
             <br></br>
-            As a former Peace Corps Volunteer, I know how to work with
-            ambiguity, adapt to changes with grace, and communicate effectively
-            with any team.
+            As a former Peace Corps Volunteer, I've honed the ability to
+            navigate ambiguity, embrace change, and communicate seamlessly with
+            diverse teams.
             <br></br>
             <br></br>
-            When my eyes need a break from the screen, you can find me climbing
-            rocks, running trails, reading books, and petting dogs.{' '}
+            Away from the screen, you'll find me outside in nature, getting lost
+            in a good book, and playing games.{' '}
           </p>
           <div id='image-cropper'>
             <img src={profilePicture} alt='Joe Gelay' id='profile-picture' />
