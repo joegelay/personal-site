@@ -19,14 +19,13 @@ const projectData = [
     link: 'https://youvsabillionaire.com',
   },
   {
-    title: 'Fine Line Philosophy',
-    image: 'FineLinePhilosophy',
+    title: 'No Way, They Died?!',
+    image: 'NoWayTheyDied',
     description:
-      'Fine Line Philosophy was created to parse out meaning, parallels, and contrasts of similar but often confused words or ideas.',
-    stack: 'Rails, PostgreSQL, Vanilla JS, HTML + CSS, ScrollMagic.js',
-    github: 'https://github.com/joegelay/fine-line-philosophy-frontend',
-    link: 'https://finelinephilosophy.com',
-    youtube: 'https://www.youtube.com/watch?v=Hp6zfkOzCyA',
+      'This is a dumb game I created born out of the surprise one always finds upon finding out that someone famous died or is still alive.',
+    stack: 'React.js',
+    github: 'https://github.com/joegelay/no-way-they-died',
+    link: 'https://nowaytheydied.com',
   },
   {
     title: 'CLI Journal App',
