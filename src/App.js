@@ -65,7 +65,7 @@ const App = () => {
             >
               Reading
             </NavLink>
-            <a
+            {/* <a
               onClick={() => removeMobileMenu()}
               className='main-nav-link'
               href={PDF}
@@ -73,7 +73,7 @@ const App = () => {
               target='_blank'
             >
               Resume
-            </a>
+            </a> */}
           </nav>
 
           <div id='hamburger' onClick={() => toggleHamMenu()}>
