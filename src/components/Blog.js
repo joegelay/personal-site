@@ -30,6 +30,11 @@ class Blog extends Component {
       );
   }
 
+  extractImageSrc(description) {
+    const srcMatch = description.match(/<img[^>]+src="([^">]+)"/);
+    return srcMatch ? srcMatch[1] : null;
+  }
+
   render() {
     return (
       <div className='content'>
@@ -45,7 +50,11 @@ class Blog extends Component {
             this.state.items.map((article) => (
               <div className='article-card' key={article.guid}>
                 <a className='article-image' href={article.link}>
-                  <img width='100%' src={article.thumbnail} alt='img' />
+                  <img
+                    width='100%'
+                    src={this.extractImageSrc(article.description)}
+                    alt='img'
+                  />
                 </a>
                 <div className='article-title'>
                   <a href={article.link}>{article.title}</a>
