@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route, NavLink, HashRouter } from 'react-router-dom';
 import './styles/reset.css';
 import './styles/App.css';
@@ -6,7 +5,6 @@ import './styles/goodreads.css';
 import './styles/blog.css';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
-import PDF from './images/JGelayResume.pdf';
 import Reading from './components/Reading.js';
 import Blog from './components/Blog.js';
 
