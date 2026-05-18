@@ -12,18 +12,25 @@ class About extends Component {
 
         <div id='blurb-and-image'>
           <p id='blurb'>
-            I'm a full stack developer driven by a passion for learning and
-            solving complex problems. I thrive on building meaningful
-            connections, both through code and collaboration.
+            I’m a product-minded technologist and engineering leader who enjoys
+            building systems, tools, and experiences that help people navigate
+            complexity and do their best work.
             <br></br>
             <br></br>
-            As a former Peace Corps Volunteer, I've honed the ability to
-            navigate ambiguity, embrace change, and communicate seamlessly with
-            diverse teams.
+            My background spans software engineering, developer experience,
+            engineering management, and internal product development. I’m
+            especially drawn to ambiguous problems that require a mix of
+            technical thinking, communication, strategy, and collaboration.
             <br></br>
             <br></br>
-            Away from the screen, you'll find me outside in nature, getting lost
-            in a good book, and playing games.{' '}
+            As a former Peace Corps Volunteer, I learned to adapt quickly,
+            communicate across perspectives, and approach difficult problems
+            with curiosity, empathy, and pragmatism.
+            <br></br>
+            <br></br>
+            Outside of work, I spend a lot of time climbing, cycling, reading,
+            and working on creative projects exploring technology, meaning, and
+            personal growth.
           </p>
           <div id='image-cropper'>
             <img src={profilePicture} alt='Joe Gelay' id='profile-picture' />
