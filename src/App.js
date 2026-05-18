@@ -1,3 +1,5 @@
+//@ts-ignore
+import React from 'react';
 import { Route, NavLink, HashRouter } from 'react-router-dom';
 import './styles/reset.css';
 import './styles/App.css';
