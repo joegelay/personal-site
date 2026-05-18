@@ -139,7 +139,6 @@ html::after {
 #profile-picture {
   display: inline;
   margin: 0 auto;
-  margin-left: -27%;
   height: 100%;
   width: auto;
 }
