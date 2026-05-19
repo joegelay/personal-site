@@ -16,8 +16,10 @@ class Blog extends Component {
         (result) => {
           this.setState({
             isLoaded: true,
-            items: result.items.filter((article) =>
-              article.categories.includes('programming', 'agency'),
+            items: result.items.filter(
+              (article) =>
+                article.categories.includes('programming') ||
+                article.categories.includes('agency'),
             ),
           });
         },
