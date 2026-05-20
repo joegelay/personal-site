@@ -7,6 +7,15 @@ const projectData = [
     link: 'https://gvadaptive.org',
   },
   {
+    title: 'You Vs. A Billionaire',
+    image: 'Billionaire',
+    description:
+      'A single page app designed to spark awareness and conversation about both domestic and global wealth inequality, its impact on our lives, and the impact we can have on others.',
+    stack: 'React.js, AOS animation library, CSS',
+    github: 'https://github.com/joegelay/you-vs-a-billionaire',
+    link: 'https://youvsabillionaire.com',
+  },
+  {
     title: 'KindCard',
     image: 'KindCard',
     description:
@@ -16,15 +25,7 @@ const projectData = [
     link: 'https://kindcard.netlify.app/#/',
     youtube: 'https://www.youtube.com/watch?v=UNF6YMRWQWQ',
   },
-  {
-    title: 'You Vs. A Billionaire',
-    image: 'Billionaire',
-    description:
-      'A single page app designed to spark awareness and conversation about both domestic and global wealth inequality, its impact on our lives, and the impact we can have on others.',
-    stack: 'React.js, AOS animation library, CSS',
-    github: 'https://github.com/joegelay/you-vs-a-billionaire',
-    link: 'https://youvsabillionaire.com',
-  },
+
   // {
   //   title: 'No Way, They Died?!',
   //   image: 'NoWayTheyDied',
