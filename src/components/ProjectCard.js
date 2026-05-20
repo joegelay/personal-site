@@ -7,6 +7,7 @@ import CLIJournalApp from '../images/CLIJournalApp.png';
 import Barterbook from '../images/Barterbook.png';
 import KindCard from '../images/KindCard.png';
 import Billionaire from '../images/billionaire.png';
+import Gvac from '../images/gvac.png';
 
 const imageMap = {
   NoWayTheyDied: NoWayTheyDied,
@@ -14,6 +15,7 @@ const imageMap = {
   Barterbook: Barterbook,
   KindCard: KindCard,
   Billionaire: Billionaire,
+  Gvac: Gvac,
 };
 
 export default class ProjectCard extends Component {

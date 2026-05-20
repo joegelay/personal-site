@@ -1,5 +1,12 @@
 const projectData = [
   {
+    title: 'Grand Valley Adaptive Climbing',
+    image: 'Gvac',
+    description: 'Complete website build for Grand Valley Adaptive Climbing.',
+    stack: 'React, TypeScript, Tailwind, Sanity CMS, Netlify',
+    link: 'https://gvadaptive.org',
+  },
+  {
     title: 'KindCard',
     image: 'KindCard',
     description:
