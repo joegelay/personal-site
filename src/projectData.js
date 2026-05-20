@@ -13,7 +13,7 @@ const projectData = [
       'How much impact can a single act of kindness have? KindCard aims to track these interactions to show their true impact.',
     stack: 'React.js, Leaflet.js, Node, Express.js, CSS, PostgreSQL',
     github: 'https://github.com/joegelay/kindcard-frontend',
-    link: 'https://kindcardmap.com',
+    link: 'https://kindcard.netlify.app/#/',
     youtube: 'https://www.youtube.com/watch?v=UNF6YMRWQWQ',
   },
   {
