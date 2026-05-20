@@ -35,6 +35,14 @@ const projectData = [
   //   link: 'https://nowaytheydied.com',
   // },
   {
+    title: 'Colorado News Collaborative',
+    image: 'Colab',
+    description:
+      'A complete website build for the Colorado News Collaborative, a nonprofit organization that supports local journalism across the state of Colorado.',
+    stack: 'Wordpress, PHP, CSS, Elementor',
+    link: 'https://colabnews.co/',
+  },
+  {
     title: 'CLI Journal App',
     image: 'CLIJournalApp',
     description:

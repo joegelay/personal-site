@@ -8,6 +8,7 @@ import Barterbook from '../images/Barterbook.png';
 import KindCard from '../images/KindCard.png';
 import Billionaire from '../images/billionaire.png';
 import Gvac from '../images/gvac.png';
+import Colab from '../images/colab.png';
 
 const imageMap = {
   NoWayTheyDied: NoWayTheyDied,
@@ -16,6 +17,7 @@ const imageMap = {
   KindCard: KindCard,
   Billionaire: Billionaire,
   Gvac: Gvac,
+  Colab: Colab,
 };
 
 export default class ProjectCard extends Component {
