@@ -25,15 +25,15 @@ const projectData = [
     github: 'https://github.com/joegelay/you-vs-a-billionaire',
     link: 'https://youvsabillionaire.com',
   },
-  {
-    title: 'No Way, They Died?!',
-    image: 'NoWayTheyDied',
-    description:
-      'This is a dumb game I created born out of the surprise one always finds upon finding out that someone famous died or is still alive.',
-    stack: 'React.js',
-    github: 'https://github.com/joegelay/no-way-they-died',
-    link: 'https://nowaytheydied.com',
-  },
+  // {
+  //   title: 'No Way, They Died?!',
+  //   image: 'NoWayTheyDied',
+  //   description:
+  //     'This is a dumb game I created born out of the surprise one always finds upon finding out that someone famous died or is still alive.',
+  //   stack: 'React.js',
+  //   github: 'https://github.com/joegelay/no-way-they-died',
+  //   link: 'https://nowaytheydied.com',
+  // },
   {
     title: 'CLI Journal App',
     image: 'CLIJournalApp',
