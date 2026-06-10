@@ -7,6 +7,14 @@ const projectData = [
     link: 'https://gvadaptive.org',
   },
   {
+    title: 'The Sukkah Foundation',
+    image: 'Sukkah',
+    description:
+      'Website design and build for The Sukkah Foundation including integrations with SendGrid for email notifications and Upstart for donation processing.',
+    stack: 'React, TypeScript, Tailwind, SendGrid, Netlify',
+    link: 'https://sukkahfoundation.org',
+  },
+  {
     title: 'You Vs. A Billionaire',
     image: 'Billionaire',
     description:

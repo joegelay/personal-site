@@ -9,6 +9,7 @@ import KindCard from '../images/KindCard.png';
 import Billionaire from '../images/billionaire.png';
 import Gvac from '../images/gvac.png';
 import Colab from '../images/colab.png';
+import Sukkah from '../images/sukkah.png';
 
 const imageMap = {
   NoWayTheyDied: NoWayTheyDied,
@@ -18,6 +19,7 @@ const imageMap = {
   Billionaire: Billionaire,
   Gvac: Gvac,
   Colab: Colab,
+  Sukkah: Sukkah,
 };
 
 export default class ProjectCard extends Component {
